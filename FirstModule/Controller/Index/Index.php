@@ -6,7 +6,9 @@
 
 namespace SimplifiedMagento\FirstModule\Controller\Index;
 
+use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Framework\App\Action\HttpGetActionInterface;
+use SimplifiedMagento\FirstModule\NotMagento\PencilInterface;
 
 /**
  * Class Index
@@ -14,11 +16,21 @@ use Magento\Framework\App\Action\HttpGetActionInterface;
 class Index implements HttpGetActionInterface
 {
 
+    public function __construct(
+        private PencilInterface $pencil,
+        private ProductRepositoryInterface $productRepository
+    ) {
+    }
+
     /**
      * @inheritdoc
      */
     public function execute()
     {
-        dd("First Module");
+        $pencil = $this->pencil;
+        //        dd("First Module");
+        //        dd($pencil->getPencilType());
+
+        dd(get_class($this->productRepository));
     }
 }

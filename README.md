@@ -147,7 +147,7 @@
 ```
 [Add your notes here]
 - https://developer.adobe.com/commerce/php/development/components/routing/
-- 
+- https://github.com/magento/magento2/blob/2.4/lib/internal/Magento/Framework/App/etc/routes.xsd
 - 
 ```
 
@@ -216,8 +216,8 @@
 ```
 [Add your notes here]
 - 
-- 
-- 
+- https://developer.adobe.com/commerce/php/development/components/dependency-injection/
+- https://webkul.com/blog/dependency-injection/
 ```
 
 ### 4.2 Dependency Injection Part 2
