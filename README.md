@@ -102,7 +102,7 @@
 ```
 [Add your notes here]
 - 
-- 
+- https://developer.adobe.com/commerce/php/architecture/modules/areas/
 - 
 ```
 
